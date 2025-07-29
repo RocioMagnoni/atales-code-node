@@ -81,7 +81,7 @@ jobs:
 
       - name: Commit & Push de los manifiestos parchados
         run: |
-          cd python-microservicio-k8s    
+          cd atales-k8s-node   
           git config user.email "ci@github.com"
           git config user.name "GitHub Actions"
           git add overlays/${{ steps.overlay.outputs.overlay }}/patch-frontend-deployment.yaml

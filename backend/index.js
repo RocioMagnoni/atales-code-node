@@ -61,7 +61,7 @@ app.use(cors({
 
 const allowedOrigins = [
   "http://localhost:5173",  // para desarrollo local
-  "http://encuestapp.local" // para producción local con Ingress
+  "http://atales.local" // para producción local con Ingress
 ];
 
 app.use(cors({

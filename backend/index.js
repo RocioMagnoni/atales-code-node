@@ -5,7 +5,8 @@ require("dotenv").config();
 
 const app = express();
 
-//haciendo commit 29-07 wowow  30-07
+//haciendo commit 29-07 wowow  30-07 
+//commit para stg
 
 
 // 👇 ESTA es la configuración correcta de CORS

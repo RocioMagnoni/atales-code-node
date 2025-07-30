@@ -70,7 +70,8 @@ jobs:
         with:
           repository: ${{ env.MANIFESTS_REPO }}
           token: ${{ secrets.K8S_REPO_PAT }}
-          path: atales-k8s-node    # <- Cambié este path para que coincida con el nuevo nombre
+          path: atales-k8s-node    # <- Cambié este path para que coincida con el nuevo nombre y por defecto usar la rama main
+          ref: dev-emi   # <- especificás explícitamente la rama
 
       - name: Parchar el deployment con el nuevo tag
         run: |

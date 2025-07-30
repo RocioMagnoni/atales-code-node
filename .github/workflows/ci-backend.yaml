@@ -3,7 +3,7 @@ name: deploy-backend-dev
 on:
   push:
     branches:
-      - dev-emi #<---cambiar para produccion a main
+      - main #<---cambiar para produccion a main
     paths:
       - 'backend/**'
 

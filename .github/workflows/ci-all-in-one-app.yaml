@@ -5,7 +5,7 @@ on:
     branches:
       - stg/prod-nodeport #<---cambiar para produccion a main
     paths:
-      - './**'
+      - '**'
 
 env:
   IMAGE_NAME: rociomagnoni/atales-app #usuariodockerhub/nombreProyecto

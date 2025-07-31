@@ -1,6 +1,6 @@
 #agregando cambios 30/07
 #comit prueba stg 30/7
-
+#cambios generales para 1 docker general
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

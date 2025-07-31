@@ -13,7 +13,7 @@ RUN npm install
 
 # Copiar el resto del backend
 COPY . .
-COPY .env .env  
+#COPY .env .env  
 # <- esta línea agrega el archivo al contenedor, luego en el codigo yaml lo reemplazamos por el secreto de kubernetes
 
 # Exponer el puerto que uses (ajustalo si no es 3001)

@@ -8,6 +8,7 @@ const app = express();
 //haciendo commit 29-07 wowow  30-07 
 //commit para stg
 //commit para dev 31/07
+//commit para stg 31/07
 
 // 👇 ESTA es la configuración correcta de CORS
 app.use(cors({

@@ -71,7 +71,7 @@ jobs:
           repository: ${{ env.MANIFESTS_REPO }}
           token: ${{ secrets.K8S_REPO_PAT }}
           path: atales-k8s-node    # <- Cambié este path para que coincida con el nuevo nombre y por defecto usar la rama main
-          ref: stg/prod-nodeport   # <- especificás explícitamente la rama
+          ref: stg-prod-nodeport   # <- especificás explícitamente la rama de los manifiestos
 
       - name: Parchar el deployment con el nuevo tag
         run: |

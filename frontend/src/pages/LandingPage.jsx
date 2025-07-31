@@ -15,7 +15,7 @@ export default function LandingPage() {
 
 
 
-      <h1>Bienvenidos a Atales</h1>
+      <h1>Bienvenidos a Atales-Dev</h1>
       <p style={{ textAlign: 'center' }}>Inicia sesión o regístrate para comenzar a gestionar.</p>
       <div className="nav-links">
         <Link to="/login">Login</Link>

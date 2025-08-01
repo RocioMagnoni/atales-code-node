@@ -3,7 +3,7 @@ name: deploy-frontend
 on:
   push:
     branches:
-      - dev-v1
+      - dev-v2
     paths:
       - 'frontend/**'
 
@@ -71,7 +71,7 @@ jobs:
           repository: ${{ env.MANIFESTS_REPO }}
           token: ${{ secrets.K8S_REPO_PAT }}
           path: atales-k8s-node    # <- Cambié este path para que coincida con el nuevo nombre
-          ref: dev-v1   # <- especificás explícitamente la rama
+          ref: dev-v2   # <- especificás explícitamente la rama
           
       - name: Parchar el deployment con el nuevo tag
         run: |

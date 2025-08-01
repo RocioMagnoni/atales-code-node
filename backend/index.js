@@ -12,6 +12,7 @@ const app = express();
 //commit para prod 31/07
 //comit para prod 31/07 dsadasd
 //comit para stg 1/08 
+//comit para prod 1/08 
 
 // 👇 ESTA es la configuración correcta de CORS
 app.use(cors({
